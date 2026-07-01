@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Ahmad AOE Trading Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a class="brand" href="dashboard.html">
+        <span class="brand-mark"><i class="fa-solid fa-chart-line"></i></span>
+        <span>AHMAD AOE</span>
+      </a>
+      <div class="nav-links">
+        <a href="profile.html">Profile</a>
+        <a href="wallet.html">Wallet</a>
+        <a href="settings.html">Settings</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="dashboard-layout">
+      <aside class="sidebar">
+        <h3>Navigation</h3>
+        <a class="active" href="dashboard.html"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+        <a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a>
+        <a href="courses.html"><i class="fa-solid fa-book-open"></i> Courses</a>
+        <a href="my-courses.html"><i class="fa-solid fa-graduation-cap"></i> My Courses</a>
+        <a href="market-analysis.html"><i class="fa-solid fa-chart-simple"></i> Analysis</a>
+        <a href="trading-signals.html"><i class="fa-solid fa-signal"></i> Signals</a>
+        <a href="live-market.html"><i class="fa-solid fa-tv"></i> Live Market</a>
+        <a href="wallet.html"><i class="fa-solid fa-wallet"></i> Wallet</a>
+        <a href="deposit.html"><i class="fa-solid fa-money-bill-transfer"></i> Deposit</a>
+        <a href="withdraw.html"><i class="fa-solid fa-money-bill-wave"></i> Withdraw</a>
+        <a href="community.html"><i class="fa-solid fa-users"></i> Community</a>
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </aside>
+      <section class="main-panel">
+        <div class="card fade-up">
+          <h2>Welcome back, Alex</h2>
+          <p class="muted">Your trading desk is ready. Review signals, monitor your wallet, and continue your education.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="card fade-up"><h3>Wallet Balance</h3><div class="stat-number">$24,580</div><p class="muted">Available funds</p></div>
+          <div class="card fade-up"><h3>Deposit Balance</h3><div class="stat-number">$8,200</div><p class="muted">Queued and cleared</p></div>
+          <div class="card fade-up"><h3>Account Status</h3><div class="stat-number">Verified</div><p class="muted">Premium access enabled</p></div>
+          <div class="card fade-up"><h3>Signals Today</h3><div class="stat-number">7</div><p class="muted">Active opportunities</p></div>
+        </div>
+        <div class="grid grid-2">
+          <div class="card fade-up">
+            <h3>Latest Market News</h3>
+            <p class="muted">USD strength remains supported as inflation data surprises to the upside.</p>
+            <p class="muted">Gold retraces after a volatile session, offering fresh opportunities.</p>
+          </div>
+          <div class="card fade-up">
+            <h3>Latest Signals</h3>
+            <table class="table">
+              <thead><tr><th>Pair</th><th>Entry</th><th>Status</th></tr></thead>
+              <tbody><tr><td>EURUSD</td><td>1.0842</td><td><span class="status-pill status-live">Live</span></td></tr><tr><td>XAUUSD</td><td>2347.25</td><td><span class="status-pill status-pending">Watch</span></td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
